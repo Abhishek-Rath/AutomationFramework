@@ -1,25 +1,31 @@
 from selenium import  webdriver
-from selenium.webdriver.common.by import By
-
 import unittest
 from pages.home.login_page import LoginPage
+import pytest
 
 class LoginTests(unittest.TestCase):
+    base_url = 'https://www.letskodeit.com/'
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    driver.implicitly_wait(3)
+    # driver.get(base_url)
+    lp = LoginPage(driver)
 
+    @pytest.mark.order2
     def test_valid_login(self):
-        base_url = 'https://www.letskodeit.com/'
-        driver = webdriver.Chrome()
-        driver.maximize_window()
-        driver.implicitly_wait(3)
-        driver.get(base_url)
+        # self.driver.get(self.base_url)
+        self.lp.login("abhi.rath39@gmail.com", "abhishek@123")
 
-        lp = LoginPage(driver)
-        lp.login("abhi.rath39@gmail.com", "abhishek@123")
+        result = self.lp.verifyLoginSuccessful()
+        assert result == True
+        self.driver.quit()
+    @pytest.mark.order1
+    def test_invalid_login(self):
+        self.driver.get(self.base_url)
+        self.lp.login("abhi.rath39@gmail.com", "yooyoo")
+        result = self.lp.verifyLoginFailed()
+        assert result == True
+        # self.driver.quit()
 
-        user_icon = driver.find_element(By.XPATH, "//img[@class='zl-navbar-rhs-img ']")
-        if user_icon is not None:
-            print("login successful")
-        else:
-            print("login failed")
 
 

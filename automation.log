@@ -1,8 +1,48 @@
-08/23/2023 12:53:16 PM - LoginPage - INFO: Element found with locator: //a[normalize-space()='Sign In'] and  locatorType: xpath
-08/23/2023 12:53:17 PM - LoginPage - INFO: Clicked on element with locator: //a[normalize-space()='Sign In'] locatorType: XPATH
-08/23/2023 12:53:17 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
-08/23/2023 12:53:17 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
-08/23/2023 12:53:17 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
-08/23/2023 12:53:17 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
-08/23/2023 12:53:17 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
-08/23/2023 12:53:17 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+08/23/2023 05:00:09 PM - LoginPage - INFO: Element found with locator: //a[normalize-space()='Sign In'] and  locatorType: xpath
+08/23/2023 05:00:10 PM - LoginPage - INFO: Clicked on element with locator: //a[normalize-space()='Sign In'] locatorType: XPATH
+08/23/2023 05:00:10 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+08/23/2023 05:00:10 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+08/23/2023 05:00:10 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+08/23/2023 05:00:10 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+08/23/2023 05:00:10 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+08/23/2023 05:00:10 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+08/23/2023 05:00:10 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+08/23/2023 05:00:11 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+08/23/2023 05:00:11 PM - LoginPage - INFO: Element found with locator: //span[contains(text(), 'Incorrect login details. Please try again.')] and  locatorType: xpath
+08/23/2023 05:00:11 PM - LoginPage - INFO: Element Found
+08/23/2023 05:00:11 PM - LoginPage - INFO: Element found with locator: //a[normalize-space()='Sign In'] and  locatorType: xpath
+08/23/2023 05:00:12 PM - LoginPage - INFO: Cannot click on the element with locator: //a[normalize-space()='Sign In'] locatorType: XPATH
+08/23/2023 05:00:12 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+08/23/2023 05:00:12 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+08/23/2023 05:00:12 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+08/23/2023 05:00:12 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+08/23/2023 05:00:12 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+08/23/2023 05:00:12 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+08/23/2023 05:00:12 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+08/23/2023 05:00:12 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+08/23/2023 05:00:14 PM - LoginPage - INFO: Element found with locator: //img[@class='zl-navbar-rhs-img '] and  locatorType: xpath
+08/23/2023 05:00:14 PM - LoginPage - INFO: Element Found
+08/24/2023 11:04:51 AM - LoginPage - INFO: Element found with locator: //a[normalize-space()='Sign In'] and  locatorType: xpath
+08/24/2023 11:04:53 AM - LoginPage - INFO: Clicked on element with locator: //a[normalize-space()='Sign In'] locatorType: XPATH
+08/24/2023 11:04:53 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+08/24/2023 11:04:53 AM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+08/24/2023 11:04:53 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+08/24/2023 11:04:53 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+08/24/2023 11:04:53 AM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+08/24/2023 11:04:53 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+08/24/2023 11:04:53 AM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+08/24/2023 11:04:53 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+08/24/2023 11:04:53 AM - LoginPage - INFO: Element found with locator: //span[contains(text(), 'Incorrect login details. Please try again.')] and  locatorType: xpath
+08/24/2023 11:04:53 AM - LoginPage - INFO: Element Found
+08/24/2023 11:04:53 AM - LoginPage - INFO: Element found with locator: //a[normalize-space()='Sign In'] and  locatorType: xpath
+08/24/2023 11:04:54 AM - LoginPage - INFO: Cannot click on the element with locator: //a[normalize-space()='Sign In'] locatorType: XPATH
+08/24/2023 11:04:54 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+08/24/2023 11:04:54 AM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+08/24/2023 11:04:54 AM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+08/24/2023 11:04:54 AM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+08/24/2023 11:04:55 AM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+08/24/2023 11:04:55 AM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+08/24/2023 11:04:55 AM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+08/24/2023 11:04:55 AM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+08/24/2023 11:04:57 AM - LoginPage - INFO: Element found with locator: //img[@class='zl-navbar-rhs-img '] and  locatorType: xpath
+08/24/2023 11:04:57 AM - LoginPage - INFO: Element Found

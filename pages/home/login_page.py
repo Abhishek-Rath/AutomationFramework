@@ -42,8 +42,22 @@ class LoginPage(SeleniumDriver):
     def clickLoginButton(self):
         # self.getLoginButton().click()
         self.elementClick(self._login_button, "id")
-    def login(self, email, password):
+    def login(self, email="", password=""):
         self.clickLoginLink()
+        self.clearFields()
         self.enterEmail(email)
         self.enterPassword(password)
         self.clickLoginButton()
+
+    def clearFields(self):
+        emailField = self.getElement(locator=self._email_field)
+        emailField.clear()
+        passwordField = self.getElement(locator=self._password_field)
+        passwordField.clear()
+    def verifyLoginSuccessful(self):
+        result = self.isElementPresent("//img[@class='zl-navbar-rhs-img ']", "xpath")
+        return result
+
+    def verifyLoginFailed(self):
+        result = self.isElementPresent("//span[contains(text(), 'Incorrect login details. Please try again.')]", "xpath")
+        return result
