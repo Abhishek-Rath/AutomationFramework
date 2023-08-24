@@ -22,7 +22,7 @@ class LoginTests(unittest.TestCase):
     @pytest.mark.order1
     def test_invalid_login(self):
         self.driver.get(self.base_url)
-        self.lp.login("abhi.rath39@gmail.com", "yooyoo")
+        self.lp.login("abhi.rath39@gmail.com", "abhishek@123")
         result = self.lp.verifyLoginFailed()
         assert result == True
         # self.driver.quit()
